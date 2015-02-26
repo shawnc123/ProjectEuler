@@ -1,8 +1,8 @@
 import datetime
 
 d = datetime.date(1901, 1, 1)
-
 print d
+
 ct = 0
 while d.year < 2001:
     print d, d.weekday, d.day
